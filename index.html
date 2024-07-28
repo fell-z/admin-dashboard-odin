@@ -3,17 +3,109 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Admin Dashboard</title>
   </head>
   <body>
     <div class="sidebar">
+      <div class="logo">
+        <img width="48" height="48" src="images/icons/dashboard.svg" />
+        <h1>Dashboard</h1>
+      </div>
+
+      <nav class="general">
+        <ul>
+          <li>
+            <a href="#">
+            <img src="images/icons/home.svg" width="24" height="24" />
+              Home</a>
+          </li>
+          <li>
+            <a href="#">
+            <img src="images/icons/profile.svg" width="24" height="24" />
+              Profile</a>
+          </li>
+          <li>
+            <a href="#">
+            <img src="images/icons/message.svg" width="24" height="24" />
+              Messages</a>
+          </li>
+          <li>
+            <a href="#">
+            <img src="images/icons/history.svg" width="24" height="24" />
+              History</a>
+          </li>
+          <li>
+            <a href="#">
+            <img src="images/icons/tasks.svg" width="24" height="24" />
+              Tasks</a>
+          </li>
+          <li>
+            <a href="#">
+            <img src="images/icons/communities.svg" width="24" height="24" />
+              Communities</a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav class="other">
+        <ul>
+          <li>
+            <a href="#">
+            <img src="images/icons/settings.svg" width="24" height="24" />
+              Settings</a>
+          </li>
+          <li>
+            <a href="#">
+            <img src="images/icons/support.svg" width="24" height="24" />
+              Support</a>
+          </li>
+          <li>
+            <a href="#">
+            <img src="images/icons/privacy.svg" width="24" height="24" />
+              Privacy</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-    
+
     <header>
+      <div class="search-bar">
+        <img src="images/icons/search.svg" width="20" height="20">
+        <input type="text">
+      </div>
+
+      <div class="user">
+        <img class="notification" src="images/icons/notification.svg" width="24" height="24">
+
+        <img class="user-avatar" src="https://via.placeholder.com/48x48" width="48" height="48">
+
+        <span class="user-name">Morgan Oakley</span>
+      </div>
+
+      <div class="profile">
+        <img class="profile-picture" src="https://via.placeholder.com/64x64" width="64" height="64">
+        <span>
+          <p class="profile-greeting">Hi there,</p>
+          <p class="profile-name">Morgan Oakley (@morgan)</p>
+        </span>
+      </div>
+
+      <div class="action-buttons">
+        <ul>
+          <li>
+            <button type="button">New</button>
+          </li>
+          <li>
+            <button type="button">Upload</button>
+          </li>
+          <li>
+            <button type="button">Share</button>
+          </li>
+        </ul>
+      </div>
     </header>
 
-    <main>
-    </main>
+    <main></main>
   </body>
 </html>
