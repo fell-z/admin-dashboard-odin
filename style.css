@@ -248,6 +248,7 @@ main {
 .announcements-container {
   background-color: var(--secondary-color);
   border-radius: var(--border-radius);
+  box-shadow: 1px 2px 6px hsl(from var(--shadow-base-color) h s calc(l + 5));
   padding: 32px;
   margin-top: 8px;
 
@@ -285,6 +286,7 @@ main {
 
 .trending-container {
   background-color: var(--secondary-color);
+  box-shadow: 1px 2px 6px hsl(from var(--shadow-base-color) h s calc(l + 5));
   border-radius: var(--border-radius);
   padding: 24px;
   margin-top: 8px;
